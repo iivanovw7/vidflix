@@ -1,0 +1,23 @@
+{
+  "name": "vidflix",
+  "version": "0.1.0",
+  "description": "Sample website, built with nodejs and pug",
+  "main": "server.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": "iivanovw7",
+  "license": "MIT",
+  "dependencies": {
+    "delay": "^3.0.0",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "json-fs-store": "^1.0.1",
+    "json-store": "^1.0.0",
+    "pug": "^2.0.3",
+    "rellax": "^1.6.2"
+  },
+  "devDependencies": {
+    "pm2": "^2.10.3"
+  }
+}

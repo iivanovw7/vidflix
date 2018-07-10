@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title #{title}
+        link(rel='stylesheet', href='/css/style.css')
+        link(rel='stylesheet', href='/css/loading-bar.css')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        script(src='/js/scripts.js')
+        script(src='/js/loading-bar.js')
+    body
+        main
+            block header
+                header.header
+                    h1 #{title}
+                    img(src='https://www.themoviedb.org/static_cache/v4/logos/powered-by-rectangle-green-dcada16968ed648d5eb3b36bbcfdd8cdf804f723dcca775c8f2bf4cea025aad6.svg' alt='Powered by TMDB')
+            block content

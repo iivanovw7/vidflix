@@ -1,0 +1,13 @@
+extends default
+
+block content
+    div.container
+        each movie in movies
+            div.person
+                a(href=`/movie?id=${movie.id}`)
+                    div.person-image(style=`background: url('https://image.tmdb.org/t/p/w300_and_h450_bestv2/${movie.poster_path}') top center no-repeat; background-size: cover;`)
+                h2.person-name
+                    | #{movie.title}
+
+
+
