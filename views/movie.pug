@@ -1,12 +1,14 @@
 extends default
-
 block header
 
 block content
+
     div.profileWrapper.custom_bg(style=`background: url('https://image.tmdb.org/t/p/w300_and_h450_bestv2/${SingleMovie.backdrop_path}') center;
     background-size: cover; background-color: rgba(0, 0, 0, 0.9)`)
-        div.profile(style=`background: url('https://image.tmdb.org/t/p/w300_and_h450_bestv2/${SingleMovie.backdrop_path}') center
-        no-repeat; background-size: 400px 600px;`)
+        div.profile()
+            div.imageWrapper
+                img(src=`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${SingleMovie.backdrop_path}`)
+                img(src=`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${SingleMovie.poster_path}`)
         div.profile-details
             h1.profile-name
                 | #{SingleMovie.title}
@@ -22,5 +24,5 @@ block content
             p.profile-bio
                 | #{SingleMovie.overview}
             br
-            a.button.button-twitter(href=`http://localhost:7070/`)
+            a.button.button-back(href=`http://localhost:7070/`)
                 | НАЗАД

@@ -19,3 +19,7 @@ yarn-error.log*
 *.map
 firebase-adminsdk.json
 
+# Dependency directories
+
+mongo.js
+apiKey.js

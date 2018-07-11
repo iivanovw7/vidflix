@@ -1,12 +1,12 @@
 {
   "results": [
     {
-      "vote_count": 262,
+      "vote_count": 311,
       "id": 363088,
       "video": false,
       "vote_average": 7.2,
       "title": "Человек-муравей и Оса",
-      "popularity": 181.387,
+      "popularity": 204.317,
       "poster_path": "/nCriJDpTP8H1iIg5XumTm9LdBA6.jpg",
       "original_language": "en",
       "original_title": "Ant-Man and the Wasp",
@@ -23,12 +23,12 @@
       "release_date": "2018-07-04"
     },
     {
-      "vote_count": 845,
+      "vote_count": 904,
       "id": 260513,
       "video": false,
       "vote_average": 7.7,
       "title": "Суперсемейка 2",
-      "popularity": 169.606,
+      "popularity": 159.763,
       "poster_path": "/4nfcsGUwVQosKCBGb5SDTseitPl.jpg",
       "original_language": "en",
       "original_title": "Incredibles 2",
@@ -44,12 +44,12 @@
       "release_date": "2018-06-14"
     },
     {
-      "vote_count": 116,
+      "vote_count": 130,
       "id": 442249,
       "video": false,
       "vote_average": 6.4,
       "title": "Судная ночь. Начало",
-      "popularity": 102.813,
+      "popularity": 97.314,
       "poster_path": "/i2S3IPfeob5TVTUgVPucpRmeBuY.jpg",
       "original_language": "en",
       "original_title": "The First Purge",
@@ -65,32 +65,12 @@
       "release_date": "2018-07-04"
     },
     {
-      "vote_count": 7,
-      "id": 353081,
-      "video": false,
-      "vote_average": 0,
-      "title": "Миссия невыполнима: Последствия",
-      "popularity": 53.015,
-      "poster_path": "/kKwDswuveg56QHx5AnYwTCgoil2.jpg",
-      "original_language": "en",
-      "original_title": "Mission: Impossible - Fallout",
-      "genre_ids": [
-        12,
-        28,
-        53
-      ],
-      "backdrop_path": "/5qxePyMYDisLe8rJiBYX8HKEyv2.jpg",
-      "adult": false,
-      "overview": "Шестая часть знаменитой серии боевиков «Миссия: невыполнима». Итан Хант и его команда, а также недавно примкнувшие к ним союзники, вынуждены действовать наперегонки со временем, когда новая миссия идет не по плану.",
-      "release_date": "2018-07-25"
-    },
-    {
-      "vote_count": 314,
+      "vote_count": 317,
       "id": 437557,
       "video": false,
-      "vote_average": 6.3,
+      "vote_average": 6.2,
       "title": "Секса не будет!",
-      "popularity": 52.536,
+      "popularity": 61.246,
       "poster_path": "/srZVXPzTHCZu1G6j1OpnSZPPmNS.jpg",
       "original_language": "en",
       "original_title": "Blockers",
@@ -103,13 +83,13 @@
       "release_date": "2018-03-14"
     },
     {
-      "vote_count": 161,
+      "vote_count": 164,
       "id": 460668,
       "video": false,
       "vote_average": 6.3,
       "title": "Красотка на всю голову",
-      "popularity": 47.925,
-      "poster_path": "/6oymlPGPZwiL1qr4eUlRBKFXJA4.jpg",
+      "popularity": 52.009,
+      "poster_path": "/eSJY093pNVonIi7Fs7u0wUSem10.jpg",
       "original_language": "en",
       "original_title": "I Feel Pretty",
       "genre_ids": [
@@ -121,13 +101,13 @@
       "release_date": "2018-04-19"
     },
     {
-      "vote_count": 6,
+      "vote_count": 14,
       "id": 400155,
       "video": false,
-      "vote_average": 6.8,
+      "vote_average": 7.4,
       "title": "Монстры на каникулах 3: Море зовёт",
-      "popularity": 36.408,
-      "poster_path": "/oPBKw7rsvO2quge1cQ5wuMJQWCA.jpg",
+      "popularity": 49.354,
+      "poster_path": "/akKX1lqapIQxZR1pq6uL90MhOJm.jpg",
       "original_language": "en",
       "original_title": "Hotel Transylvania 3: Summer Vacation",
       "genre_ids": [
@@ -142,12 +122,32 @@
       "release_date": "2018-07-12"
     },
     {
-      "vote_count": 110,
+      "vote_count": 7,
+      "id": 353081,
+      "video": false,
+      "vote_average": 0,
+      "title": "Миссия невыполнима: Последствия",
+      "popularity": 47.784,
+      "poster_path": "/kKwDswuveg56QHx5AnYwTCgoil2.jpg",
+      "original_language": "en",
+      "original_title": "Mission: Impossible - Fallout",
+      "genre_ids": [
+        12,
+        28,
+        53
+      ],
+      "backdrop_path": "/5qxePyMYDisLe8rJiBYX8HKEyv2.jpg",
+      "adult": false,
+      "overview": "Шестая часть знаменитой серии боевиков «Миссия: невыполнима». Итан Хант и его команда, а также недавно примкнувшие к ним союзники, вынуждены действовать наперегонки со временем, когда новая миссия идет не по плану.",
+      "release_date": "2018-07-25"
+    },
+    {
+      "vote_count": 113,
       "id": 400535,
       "video": false,
       "vote_average": 6.6,
       "title": "Убийца 2: Против всех",
-      "popularity": 35.743,
+      "popularity": 37.037,
       "poster_path": "/bDaspvC4WsuLkrU3Uy9zOYSdFhO.jpg",
       "original_language": "en",
       "original_title": "Sicario: Day of the Soldado",
@@ -163,12 +163,12 @@
       "release_date": "2018-06-27"
     },
     {
-      "vote_count": 513,
+      "vote_count": 521,
       "id": 402900,
       "video": false,
       "vote_average": 6.7,
       "title": "8 подруг Оушена",
-      "popularity": 35.657,
+      "popularity": 36.699,
       "poster_path": "/febaSytebwkMYqHozI0vlhhbrt4.jpg",
       "original_language": "en",
       "original_title": "Ocean's 8",
@@ -184,12 +184,12 @@
       "release_date": "2018-06-07"
     },
     {
-      "vote_count": 111,
+      "vote_count": 118,
       "id": 440471,
       "video": false,
-      "vote_average": 4.6,
+      "vote_average": 4.5,
       "title": "План побега 2",
-      "popularity": 34.529,
+      "popularity": 36.557,
       "poster_path": "/f93jC3PQ480YWJw5c85CMezVUT3.jpg",
       "original_language": "en",
       "original_title": "Escape Plan 2: Hades",
@@ -204,30 +204,12 @@
       "release_date": "2018-06-05"
     },
     {
-      "vote_count": 91,
-      "id": 455980,
-      "video": false,
-      "vote_average": 7.1,
-      "title": "Ты водишь!",
-      "popularity": 29.514,
-      "poster_path": "/4GTpZgK5ijNGzJSB6tXjz8Xz7t2.jpg",
-      "original_language": "en",
-      "original_title": "Tag",
-      "genre_ids": [
-        35
-      ],
-      "backdrop_path": "/yRXzrwLfB5tDTIA3lSU9S3N9RUK.jpg",
-      "adult": false,
-      "overview": "Каждый год в течение месяца пять друзей участвуют в беспощадно-навороченной версии игры в «кошки-мышки». Они играют в нее с первого класса, чтобы, рискуя собственной шеей, работой и отношениями, одолеть противника с победоносным криком: «Ты водишь!» В этом году «кошки-мышки» приходятся на свадьбу единственного непобежденного игрока, что вроде как должно сделать из него легкую мишень. Но он знает, что они придут… и он готов.",
-      "release_date": "2018-06-14"
-    },
-    {
-      "vote_count": 305,
+      "vote_count": 310,
       "id": 493922,
       "video": false,
-      "vote_average": 7,
+      "vote_average": 7.1,
       "title": "Реинкарнация",
-      "popularity": 29.263,
+      "popularity": 26.356,
       "poster_path": "/i6k1T8XYsTOR5wpFEuD75DDeaCE.jpg",
       "original_language": "en",
       "original_title": "Hereditary",
@@ -243,30 +225,30 @@
       "release_date": "2018-06-04"
     },
     {
-      "vote_count": 5,
-      "id": 476292,
+      "vote_count": 95,
+      "id": 455980,
       "video": false,
-      "vote_average": 6.6,
-      "title": "Укрась прощальное утро цветами обещания",
-      "popularity": 19.435,
-      "poster_path": "/g5qxxar0mAwzwTeS3afAhPNwL0A.jpg",
-      "original_language": "ja",
-      "original_title": "さよならの朝に約束の花をかざろう",
+      "vote_average": 7.1,
+      "title": "Ты водишь!",
+      "popularity": 25.367,
+      "poster_path": "/4GTpZgK5ijNGzJSB6tXjz8Xz7t2.jpg",
+      "original_language": "en",
+      "original_title": "Tag",
       "genre_ids": [
-        16
+        35
       ],
-      "backdrop_path": "/cfbjFQ14hSTgXChBEvaEjFiUaKb.jpg",
+      "backdrop_path": "/yRXzrwLfB5tDTIA3lSU9S3N9RUK.jpg",
       "adult": false,
-      "overview": "История о бессмертных людях, которые перестают взрослеть, достигнув подросткового возраста. Поселение таких людей подвергается атаке армии, жаждущей заполучить их кровь в качестве эликсира бессмертия.",
-      "release_date": "2018-02-24"
+      "overview": "Каждый год в течение месяца пять друзей участвуют в беспощадно-навороченной версии игры в «кошки-мышки». Они играют в нее с первого класса, чтобы, рискуя собственной шеей, работой и отношениями, одолеть противника с победоносным криком: «Ты водишь!» В этом году «кошки-мышки» приходятся на свадьбу единственного непобежденного игрока, что вроде как должно сделать из него легкую мишень. Но он знает, что они придут… и он готов.",
+      "release_date": "2018-06-14"
     },
     {
-      "vote_count": 153,
+      "vote_count": 155,
       "id": 425336,
       "video": false,
       "vote_average": 6.2,
       "title": "Эскобар",
-      "popularity": 19.1,
+      "popularity": 22.261,
       "poster_path": "/xttSYUPzRqrdwRSV9yNgknjS5Bl.jpg",
       "original_language": "es",
       "original_title": "Loving Pablo",
@@ -280,12 +262,48 @@
       "release_date": "2017-10-12"
     },
     {
-      "vote_count": 59,
+      "vote_count": 24,
+      "id": 474335,
+      "video": false,
+      "vote_average": 6.6,
+      "title": "Дядя Дрю",
+      "popularity": 21.049,
+      "poster_path": "/9lCNsfc1OEDNceGJTjfE0kBknEW.jpg",
+      "original_language": "en",
+      "original_title": "Uncle Drew",
+      "genre_ids": [
+        35
+      ],
+      "backdrop_path": "/604nkQ0s7ND7nrQorF0v9rSDpdf.jpg",
+      "adult": false,
+      "overview": "Дядя Дрю собирает команду пожилых баскетболистов, чтобы вернуться на площадку и принять участие в турнире.",
+      "release_date": "2018-06-27"
+    },
+    {
+      "vote_count": 5,
+      "id": 476292,
+      "video": false,
+      "vote_average": 6.6,
+      "title": "Укрась прощальное утро цветами обещания",
+      "popularity": 20.722,
+      "poster_path": "/g5qxxar0mAwzwTeS3afAhPNwL0A.jpg",
+      "original_language": "ja",
+      "original_title": "さよならの朝に約束の花をかざろう",
+      "genre_ids": [
+        16
+      ],
+      "backdrop_path": "/cfbjFQ14hSTgXChBEvaEjFiUaKb.jpg",
+      "adult": false,
+      "overview": "История о бессмертных людях, которые перестают взрослеть, достигнув подросткового возраста. Поселение таких людей подвергается атаке армии, жаждущей заполучить их кровь в качестве эликсира бессмертия.",
+      "release_date": "2018-02-24"
+    },
+    {
+      "vote_count": 64,
       "id": 430231,
       "video": false,
-      "vote_average": 6.7,
+      "vote_average": 6.8,
       "title": "Паранормальное",
-      "popularity": 17.065,
+      "popularity": 20.69,
       "poster_path": "/uVHPBTLb6Sj1Eso9HzyBAOMRheM.jpg",
       "original_language": "en",
       "original_title": "The Endless",
@@ -305,7 +323,7 @@
       "video": false,
       "vote_average": 0,
       "title": "Великий уравнитель 2",
-      "popularity": 16.886,
+      "popularity": 15.729,
       "poster_path": "/cQvc9N6JiMVKqol3wcYrGshsIdZ.jpg",
       "original_language": "en",
       "original_title": "The Equalizer 2",
@@ -320,51 +338,12 @@
       "release_date": "2018-07-19"
     },
     {
-      "vote_count": 147,
-      "id": 470114,
-      "video": false,
-      "vote_average": 5.5,
-      "title": "24 часа на жизнь",
-      "popularity": 16.8,
-      "poster_path": "/r07Xu9cie41Se5xdYMy17FzLrVc.jpg",
-      "original_language": "en",
-      "original_title": "24 Hours to Live",
-      "genre_ids": [
-        28,
-        878,
-        53,
-        9648
-      ],
-      "backdrop_path": "/jGjFwizX2YYoUOJkCymlfvS8aGp.jpg",
-      "adult": false,
-      "overview": "Во время очередного задания погибает киллер, на совести которого много невинных жертв. Но таинственным образом он возвращается из потустороннего мира к жизни. И теперь у него есть только 24 часа, чтобы объединившись с убийцей, от руки которого он принял смерть, искупить вину и спасти свою душу.",
-      "release_date": "2017-10-26"
-    },
-    {
-      "vote_count": 23,
-      "id": 474335,
-      "video": false,
-      "vote_average": 6.8,
-      "title": "Дядя Дрю",
-      "popularity": 14.249,
-      "poster_path": "/9lCNsfc1OEDNceGJTjfE0kBknEW.jpg",
-      "original_language": "en",
-      "original_title": "Uncle Drew",
-      "genre_ids": [
-        35
-      ],
-      "backdrop_path": "/604nkQ0s7ND7nrQorF0v9rSDpdf.jpg",
-      "adult": false,
-      "overview": "Дядя Дрю собирает команду пожилых баскетболистов, чтобы вернуться на площадку и принять участие в турнире.",
-      "release_date": "2018-06-27"
-    },
-    {
       "vote_count": 0,
       "id": 458423,
       "video": false,
       "vote_average": 0,
       "title": "Мамма MIA! 2",
-      "popularity": 13.594,
+      "popularity": 13.332,
       "poster_path": "/vi8FfuLJjXCPACtC837DbBD66he.jpg",
       "original_language": "en",
       "original_title": "Mamma Mia! Here We Go Again",
@@ -379,29 +358,50 @@
       "release_date": "2018-07-19"
     },
     {
-      "vote_count": 155,
-      "id": 456165,
+      "vote_count": 0,
+      "id": 513347,
       "video": false,
-      "vote_average": 6.5,
-      "title": "От семьи не убежишь",
-      "popularity": 13.591,
-      "poster_path": "/e2o54IaFFH6rFcIRWsVUodFII5Q.jpg",
-      "original_language": "fr",
-      "original_title": "La ch'tite famille",
+      "vote_average": 0,
+      "title": "Вкусы молодости",
+      "popularity": 13.265,
+      "poster_path": "/jjbOH07nyVcEuJt9qvs9ANsRup1.jpg",
+      "original_language": "zh",
+      "original_title": "肆式青春",
       "genre_ids": [
-        35
+        16,
+        10749,
+        18
       ],
-      "backdrop_path": "/d0gGmcmjUNtWcaZcO9gepbaN5mg.jpg",
+      "backdrop_path": "/iRB6VKJuFd88bk20hvLqlDzi4kP.jpg",
       "adult": false,
-      "overview": "Валентин — модный дизайнер, который стесняется своих родителей из рабочего класса. Но однажды его сбивает машина, после чего Валентин теряет память и забывает о событиях последних 20 лет, возвращаясь в те годы, когда он только собирался покорить Париж.",
-      "release_date": "2018-02-28"
+      "overview": "Три отличных друг от друга истории о молодом поколении китайцев из разных уголков страны.",
+      "release_date": "2018-08-04"
+    },
+    {
+      "vote_count": 118,
+      "id": 397722,
+      "video": false,
+      "vote_average": 6.4,
+      "title": "Чистокровные",
+      "popularity": 12.958,
+      "poster_path": "/pIxZzTfITqBpZxbIGsV01DcoHsT.jpg",
+      "original_language": "en",
+      "original_title": "Thoroughbreds",
+      "genre_ids": [
+        18,
+        53
+      ],
+      "backdrop_path": "/99Rd26ceIhonpOP5JoqcXYqnkD.jpg",
+      "adult": false,
+      "overview": "Дороги двух подруг из пригорода Коннектикута разошлись, и девушки не виделись несколько лет. Когда они снова встречаются, то решают восстановить свою былую дружбу. При более тесном общении девушки замечают, что они обе очень изменились, и даже стали способными на убийство.",
+      "release_date": "2018-03-09"
     }
   ],
   "page": 1,
-  "total_results": 168,
+  "total_results": 193,
   "dates": {
-    "maximum": "2018-08-02",
-    "minimum": "2018-07-16"
+    "maximum": "2018-08-04",
+    "minimum": "2018-07-17"
   },
-  "total_pages": 9
+  "total_pages": 10
 }

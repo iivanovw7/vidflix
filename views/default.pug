@@ -12,5 +12,13 @@ html
             block header
                 header.header
                     h1 #{title}
+                    h2
+                        a(href=`/` style=`color: white`) Ожидаемые
+                    h2
+                        a(href=`/toprated` style=`color: white`) Лучшие
+                    h2
+                        a(href=`/popular` style=`color: white`) Популярные
+                    h2
+                        a(href=`/nowplaying` style=`color: white`) Сегодня в кино
                     img(src='https://www.themoviedb.org/static_cache/v4/logos/powered-by-rectangle-green-dcada16968ed648d5eb3b36bbcfdd8cdf804f723dcca775c8f2bf4cea025aad6.svg' alt='Powered by TMDB')
             block content

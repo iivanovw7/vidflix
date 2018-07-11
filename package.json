@@ -14,6 +14,7 @@
     "fs": "0.0.1-security",
     "json-fs-store": "^1.0.1",
     "json-store": "^1.0.0",
+    "node-fetch": "^2.1.2",
     "pug": "^2.0.3",
     "rellax": "^1.6.2"
   },
