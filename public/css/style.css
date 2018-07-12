@@ -40,7 +40,11 @@ body {
   margin: 5px;
 }
 
-
+.movieDB {
+  max-height: 50px;
+  margin: 5px;
+  margin-right: 50px;
+}
 
 /* Homepage Container
    ========================================================================== */

@@ -3,6 +3,7 @@ html
     head
         title #{title}
         link(rel='stylesheet', href='/css/style.css')
+        link(rel='stylesheet', href='/css/bootstrap.css')
         link(rel='stylesheet', href='/css/loading-bar.css')
         meta(name="viewport" content="width=device-width, initial-scale=1")
         script(src='/js/scripts.js')
@@ -10,15 +11,18 @@ html
     body
         main
             block header
-                header.header
-                    h1 #{title}
-                    h2
-                        a(href=`/` style=`color: white`) Ожидаемые
-                    h2
-                        a(href=`/toprated` style=`color: white`) Лучшие
-                    h2
-                        a(href=`/popular` style=`color: white`) Популярные
-                    h2
-                        a(href=`/nowplaying` style=`color: white`) Сегодня в кино
-                    img(src='https://www.themoviedb.org/static_cache/v4/logos/powered-by-rectangle-green-dcada16968ed648d5eb3b36bbcfdd8cdf804f723dcca775c8f2bf4cea025aad6.svg' alt='Powered by TMDB')
+                header(style='margin-bottom: 50px;')
+                    nav.navbar.navbar-dark.bg-dark
+                        img.movieDB(src='https://www.themoviedb.org/static_cache/v4/logos/powered-by-rectangle-green-dcada16968ed648d5eb3b36bbcfdd8cdf804f723dcca775c8f2bf4cea025aad6.svg' alt='Powered by TMDB')
+                        span
+                        ul.navbar-nav.mr-auto
+                            li.nav-item.active
+                                a.navbar-brand( href="/") Ожидаемые
+                                a.navbar-brand( href="/popular") Лучшие
+                        form.form-inline.my-2.my-lg-0
+                                input.form-control.mr-sm-2(type="search" placeholder="Search" aria-label="Search")
+                                span
+                                button.btn.btn-outline-success.my-2.my-sm-0(type="submit") Search
+
+
             block content

@@ -1,7 +1,7 @@
 {
   "page": 1,
-  "total_results": 19886,
-  "total_pages": 995,
+  "total_results": 19917,
+  "total_pages": 996,
   "results": [
     {
       "vote_count": 1681,
@@ -108,7 +108,7 @@
       "release_date": "2018-06-14"
     },
     {
-      "vote_count": 7199,
+      "vote_count": 7212,
       "id": 284053,
       "video": false,
       "vote_average": 7.5,
@@ -130,7 +130,7 @@
       "release_date": "2017-10-25"
     },
     {
-      "vote_count": 1983,
+      "vote_count": 1992,
       "id": 447332,
       "video": false,
       "vote_average": 7.2,
@@ -334,7 +334,7 @@
       "release_date": "2018-02-13"
     },
     {
-      "vote_count": 2045,
+      "vote_count": 2048,
       "id": 338970,
       "video": false,
       "vote_average": 6.2,
