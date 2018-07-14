@@ -1,8 +1,6 @@
 const express = require('express');
 
 
-
-
 const fetch = require('node-fetch');
 let Key = require('./apiKey');
 const fs = require('fs');
@@ -10,8 +8,6 @@ const fs = require('fs');
 const app = express();
 const https = require('https');
 let getUpcomings = require('./upcomings.js');
-let findMovie = require('./search.js');
-let findM = require('./find.js');
 
 
 app.set('view engine', 'pug');
@@ -86,13 +82,6 @@ function findSingle(req, res, next) {
     }
 
 
-    /*
-    SingleMovie === undefined ?
-        SingleMovie = popular.results.find(p => p.id == req.query.id) :
-        SingleMovie === undefined ?
-            SingleMovie = search.results.find(p => p.id == req.query.id) :
-            SingleMovie === undefined ? res.render('not found =(') : res.next();
-    */
 
 }
 
@@ -108,51 +97,6 @@ function renderMovie(req, res) {
 
 app.get('/movie', findSingle, renderMovie);
 
-/*
-app.get('/movie', (req, res) => {
-    //console.log(upcomings);
-
-    let SingleMovie = upcomings.results.find(p => p.id == req.query.id);
-
-    SingleMovie === undefined ?
-        SingleMovie = popular.results.find(p => p.id == req.query.id) :
-            SingleMovie === undefined ?
-                SingleMovie = search.results.find(p => p.id == req.query.id) :
-                    SingleMovie === undefined ? console.log('Movie not found...') :
-
-
-    console.log(SingleMovie);
-
-    res.render('movie', {
-        title: `${SingleMovie.title}`,
-        SingleMovie,
-    });
-});
-
-*/
-/*
-function findByname(req, res, next) {
-
-    let data = findMovie(1, req.query.query);
-    console.log(data)
-
-};
-
-renderFinded = (req, res) => {
-
-    let output = req.results;
-    //console.log(output);
-
-    res.render('index', {
-        title: 'vidFlix',
-        movies: search.results,
-    })
-
-};
-
-
-app.get('/find', findByname, renderFinded);
-*/
 
 app.get('/find', (req, res) => {
 
@@ -190,32 +134,12 @@ app.get('/find', (req, res) => {
     doSearch(finished)
 
 
-    /*
-    var wait = ms => new Promise((r, j)=>setTimeout(r, ms))
-    try {
-        findMovie(1, req.query.query);
-        (async () => { await wait(2000);
-
-            let data = search.results;
-            console.log(data)
-
-            res.render('results', {
-                title: 'vidFlix',
-                movies: data,
-            })
-        })();
-
-
-    } catch (err) {
-        console.log(err)
-    }
-     */
 });
 
 
 const server = app.listen(7070, () => {
     console.log(`Express running on PORT ${server.address().port}`);
-    //console.log(tools.topCharts);
+
 });
 
 
