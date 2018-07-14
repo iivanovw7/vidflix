@@ -3,26 +3,26 @@ block header
 
 block content
 
-    div.profileWrapper.custom_bg(style=`background: url('https://image.tmdb.org/t/p/w300_and_h450_bestv2/${SingleMovie.backdrop_path}') center;
+    div.profileWrapper.custom_bg(style=`background: url('https://image.tmdb.org/t/p/w300_and_h450_bestv2/${output.backdrop_path}') center;
     background-size: cover; background-color: rgba(0, 0, 0, 0.9)`)
         div.profile()
             div.imageWrapper
-                img(src=`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${SingleMovie.backdrop_path}`)
-                img(src=`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${SingleMovie.poster_path}`)
+                img(src=`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${output.backdrop_path}`)
+                img(src=`https://image.tmdb.org/t/p/w300_and_h450_bestv2/${output.poster_path}`)
         div.profile-details
             h1.profile-name
-                | #{SingleMovie.title}
+                | #{output.title}
             h2.profile-name
-                | #{SingleMovie.original_title}
-                p Релиз: #{SingleMovie.release_date}
+                | #{output.original_title}
+                p Релиз: #{output.release_date}
             h2.profile-tagline
-                div.ldBar.label-center(data-value=`${SingleMovie.vote_average*10}` data-preset="circle")
+                div.ldBar.label-center(data-value=`${output.vote_average*10}` data-preset="circle")
                 div Рейтинг пользователей
             br
             h3
                 | Обзор
             p.profile-bio
-                | #{SingleMovie.overview}
+                | #{output.overview}
             br
             a.btn.btn-light(href=`http://localhost:7070/`)
                 | НАЗАД

@@ -1,4 +1,6 @@
 doctype html
+
+
 html
     head
         title #{title}
@@ -17,12 +19,12 @@ html
                         span
                         ul.navbar-nav.mr-auto
                             li.nav-item.active
-                                a.navbar-brand( href="/") Ожидаемые
-                                a.navbar-brand( href="/popular") Лучшие
-                        form.form-inline.my-2.my-lg-0
-                                input.form-control.mr-sm-2(type="search" placeholder="Search" aria-label="Search")
-                                span
-                                button.btn.btn-outline-success.my-2.my-sm-0(type="submit") Search
+                                button.btn.btn-outline-success.my-2.my-sm-0.buttonS(type="click" onclick='customRedirect("/")') Ожидаемые фильмы
+                                button.btn.btn-outline-success.my-2.my-sm-0.buttonS(type="click" onclick='customRedirect("/popular")') Популярные фильмы
+                        form.form-inline.my-2.my-lg-0(id="searchForm", onsubmit="event.preventDefault();")
+                                input.form-control.mr-sm-2(type="search" placeholder="Поиск" aria-label="Поиск" value="Поиск" onchange='storeInput(value)')
+                                button.btn.btn-outline-success.my-2.my-sm-0.buttonS(type="click" onclick='doSearch()') Поиск
+                                button.btn.btn-outline-success.my-2.my-sm-0.buttonS(type="click" onclick='getLastSearch()') Последние результаты
 
 
             block content
