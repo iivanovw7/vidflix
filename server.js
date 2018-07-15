@@ -52,6 +52,9 @@ app.get('/popular', (req, res) => {
 function findSingle(req, res, next) {
 
     delete require.cache[require.resolve('./search.json')];
+    delete require.cache[require.resolve('./popular.json')];
+    delete require.cache[require.resolve('./upcoming.json')];
+
     let upcomings = require('./upcoming.json');
     let popular = require('./popular.json');
     let search = require('./search.json');
